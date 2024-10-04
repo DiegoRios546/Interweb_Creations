@@ -12,12 +12,11 @@ function Common({ name, imgsrc, visit, btname }) {
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
                     {name}
-                    <strong className="brand-name"> GrowMore Inc. </strong>
+                    <strong className="brand-name"> Interweb Creations. </strong>
                   </h1>
 
                   <h2 className="my-3">
-                    We're a team of talented developers that can help your
-                    business grow!
+                  En Interweb Creations, nos especializamos en ofrecer soluciones tecnológicas innovadoras y personalizadas para empresas de todos los tamaños. Fundada con la visión de transformar el mundo digital, nuestra misión es ayudar a nuestros clientes a optimizar sus operaciones, mejorar su presencia en línea y crecer en la era digital.
                   </h2>
 
                   <div className="mt-3">
@@ -27,7 +26,7 @@ function Common({ name, imgsrc, visit, btname }) {
                   </div>
                 </div>
 
-                <div className="col-lg-6 order-1 order-lg-2 header-img">
+                <div className="col-lg-6 order-3 order-lg-2 header-img">
                   <img
                     src={imgsrc}
                     className="img-fluid animated"

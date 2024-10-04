@@ -6,10 +6,10 @@ function About() {
   return (
     <>
       <Common
-        name="Welcome to the world of"
+        name="Bienvenido a"
         imgsrc={web}
         visit="/contact"
-        btname="Contact Us"
+        btname="Contactanos"
       />
     </>
   );

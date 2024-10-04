@@ -8,7 +8,7 @@ function Contact() {
   return (
     <>
       <div className="my-5">
-        <h1 className="text-center">Contact Us</h1>
+        <h1 className="text-center">Contactanos con gusto te atenderemos</h1>
       </div>
 
       <div className="container contact-div">
@@ -16,42 +16,42 @@ function Contact() {
           <div className="col-md-6 col-10 mx-auto">
             <form>
               <div className="form-group">
-                <label for="exampleFormControlInput1">Enter Full Name</label>
+                <label for="exampleFormControlInput1">Ingresa tu nombre</label>
                 <input
                   type="text"
                   className="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="Enter Your Name"
+                  placeholder="Ingresa tu nombre completo"
                 />
               </div>
               <div className="form-group pt-3">
-                <label for="exampleFormControlInput1">Contact Number</label>
+                <label for="exampleFormControlInput1">Numero de telefono</label>
                 <input
                   type="text"
                   className="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="+91-"
+                  placeholder="+52"
                 />
               </div>
               <div className="form-group pt-3">
-                <label for="exampleFormControlInput1">Email address</label>
+                <label for="exampleFormControlInput1">Correo electronico</label>
                 <input
                   type="email"
                   className="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="name@example.com"
+                  placeholder="nombre@ejemplo.com"
                 />
               </div>
 
               <div className="form-group pt-3">
                 <label for="exampleFormControlTextarea1">
-                  Type your Message Here
+                  Dejanos un mensaje!
                 </label>
                 <textarea
                   className="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
-                  placeholder="Message"
+                  placeholder="Mensaje"
                 ></textarea>
               </div>
 
@@ -61,7 +61,7 @@ function Contact() {
                   className="btn btn-outline-primary"
                   type="submit"
                 >
-                  Submit form
+                  Enviar mensaje
                 </button>
               </div>
             </form>

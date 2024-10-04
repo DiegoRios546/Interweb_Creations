@@ -10,11 +10,10 @@ function Card({ title, imgsrc }) {
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Estamos altamente capacitados para el manejo y operacion de estos proyectos.
             </p>
             <NavLink to="/contact" className="btn btn-primary">
-              Get Quote
+              Saber mas...
             </NavLink>
           </div>
         </div>

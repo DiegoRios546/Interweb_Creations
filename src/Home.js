@@ -1,15 +1,15 @@
 import React from "react";
 import Common from "./Common";
-import web from "../src/Pictures/img2.png";
+import web from "../src/Pictures/img7.png";
 
 function Home() {
   return (
     <>
       <Common
-        name="Grow your business with"
+        name="Crea tu nuevo negocio digital con "
         imgsrc={web}
         visit="/service"
-        btname="Get started"
+        btname="Comencemos!"
       />
     </>
   );
