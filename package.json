@@ -1,7 +1,7 @@
 {
-  "name": "Interweb Creations",
+  "name": "InterwebCreations",
   "version": "0.1.0",
-  "homepage": "https://Nimish-Jain.github.io/Company-Website-React",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
