@@ -1,0 +1,67 @@
+/* Estilo para el fondo y los elementos del navbar */
+.navbar {
+    background-color: #757575; /* Color neutro para el fondo */
+    border-bottom: 1px solid #e3e3e3;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #333; /* Color neutro para el texto */
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #555;
+    margin-right: 15px;
+    font-weight: 300;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Color de hover */
+  }
+  
+  .navbar-toggler-icon {
+    color: #007bff; /* Color del icono cuando se colapsa */
+  }
+  
+  /* Estilo para la imagen del logo */
+  .header-img {
+    width: 40px; /* Tamaño más pequeño del logo */
+  }
+  
+  .navbar-text {
+    font-size: 10px;
+    color: #333;
+  }
+  
+  /* Estilo para dispositivos móviles */
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-link {
+      margin-right: 0;
+      padding: 10px;
+    }
+  }
+
+  .user-menu-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  

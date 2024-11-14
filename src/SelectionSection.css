@@ -1,0 +1,145 @@
+/* Contenedor principal con fondo oscuro */
+.detailed-section {
+    padding: 4rem 1rem;
+    background-color: #222;
+    color: #f8f9fa;
+    text-align: center;
+  }
+  
+  /* Estilo del título */
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-bottom: 3rem;
+  }
+  
+  /* Estilo de cada tarjeta de opción */
+  .option-card {
+    background-color: #333;
+    border-radius: 8px;
+    color: #f8f9fa;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .option-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Contenedor del ícono */
+  .icon-container {
+    font-size: 2.5rem;
+    color: #3474dd; /* Color del ícono */
+  }
+  
+  /* Estilo del título de la opción */
+  .option-label {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #3474dd; /* Color del título de la opción */
+  }
+  
+  /* Descripción de la opción */
+  .option-description {
+    font-size: 1rem;
+    margin: 0.5rem 0 1rem;
+    color: #ccc;
+  }
+  
+  /* Botón de explorar */
+  .explore-button {
+    color: #3474dd;
+    border-color: #3474dd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #3474df;
+    color: #f8f9fa;
+  }
+  
+  /* Contenedor principal con fondo oscuro */
+.detailed-section {
+  padding: 4rem 1rem;
+  background-color: #222;
+  color: #f8f9fa;
+  text-align: center;
+}
+
+/* Estilo del título */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f8f9fa;
+  margin-bottom: 3rem;
+}
+
+/* Estilo de cada tarjeta de opción */
+.option-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Imagen de la tarjeta de opción */
+.option-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Overlay de la opción */
+.option-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Oscurece la imagen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.option-card:hover .option-overlay {
+  opacity: 1;
+}
+
+/* Estilo del título de la opción */
+.option-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff8c00;
+  margin-top: 0.5rem;
+}
+
+/* Descripción de la opción */
+.option-description {
+  font-size: 1rem;
+  margin: 0.5rem 0 1rem;
+  color: #f8f9fa;
+}
+
+/* Botón de explorar */
+.explore-button {
+  color: #ff8c00;
+  border-color: #ff8c00;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #ff8c00;
+  color: #f8f9fa;
+}

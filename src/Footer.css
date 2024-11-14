@@ -1,0 +1,24 @@
+.footer {
+    background-color: #343a40; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 20px 0; /* Espaciado vertical */
+    margin-top: 2rem;
+  }
+  
+  .footer h5 {
+    margin-bottom: 15px; /* Espaciado debajo de los encabezados */
+  }
+  
+  .footer a {
+    color: white; /* Color de los enlaces */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Efecto hover para los enlaces */
+  }
+  
+  .footer .text-center {
+    margin-top: 20px; /* Espaciado superior */
+  }
+  
+  

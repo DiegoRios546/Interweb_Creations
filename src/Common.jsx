@@ -26,7 +26,7 @@ function Common({ name, imgsrc, visit, btname }) {
                   </div>
                 </div>
 
-                <div className="col-lg-6 order-3 order-lg-2 header-img">
+                <div className="col-lg-6 order-3 order-lg-2 mt-5">
                   <img
                     src={imgsrc}
                     className="img-fluid animated"

@@ -1,0 +1,33 @@
+/* Contenedor principal con fondo oscuro */
+.large-section {
+    padding: 4rem 1rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Estilo del título */
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  /* Lista de botones */
+  .button-list .link-button {
+    width: 80%;
+    max-width: 400px;
+    font-size: 1.2rem;
+    color: #fff;
+    border-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Efecto hover en los botones */
+  .button-list .link-button:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  
+  
